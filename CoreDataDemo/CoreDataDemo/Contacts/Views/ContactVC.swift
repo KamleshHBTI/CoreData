@@ -7,13 +7,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ContactVC: UIViewController {
 
+  lazy var coreDataStack = CoreDataStack()
+  
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view.
   }
-
 
 }
 
+extension UITableViewDelegate{
+  
+}
+
+extension UITableViewDataSource{
+  
+}
