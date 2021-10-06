@@ -17,6 +17,7 @@
 		A2D8693B270E0ADB001BF98D /* CoreDataDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D8693A270E0ADB001BF98D /* CoreDataDemoTests.swift */; };
 		A2D86945270E0ADB001BF98D /* CoreDataDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D86944270E0ADB001BF98D /* CoreDataDemoUITests.swift */; };
 		A2D86947270E0ADB001BF98D /* CoreDataDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D86946270E0ADB001BF98D /* CoreDataDemoUITestsLaunchTests.swift */; };
+		A2D86954270E0BB1001BF98D /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D86953270E0BB1001BF98D /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A2D86940270E0ADB001BF98D /* CoreDataDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D86944270E0ADB001BF98D /* CoreDataDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataDemoUITests.swift; sourceTree = "<group>"; };
 		A2D86946270E0ADB001BF98D /* CoreDataDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A2D86953270E0BB1001BF98D /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				A2D8692E270E0ADB001BF98D /* LaunchScreen.storyboard */,
 				A2D86931270E0ADB001BF98D /* Info.plist */,
 				A2D86929270E0AD8001BF98D /* CoreDataDemo.xcdatamodeld */,
+				A2D86953270E0BB1001BF98D /* CoreDataStack.swift */,
 			);
 			path = CoreDataDemo;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2D86954270E0BB1001BF98D /* CoreDataStack.swift in Sources */,
 				A2D86925270E0AD8001BF98D /* ViewController.swift in Sources */,
 				A2D8692B270E0AD8001BF98D /* CoreDataDemo.xcdatamodeld in Sources */,
 				A2D86921270E0AD8001BF98D /* AppDelegate.swift in Sources */,
@@ -443,6 +447,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZGD9X4GZC8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CoreDataDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -470,6 +475,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZGD9X4GZC8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CoreDataDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
